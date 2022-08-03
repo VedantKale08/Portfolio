@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+
+.zoom {
+  
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +48,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.text{
+  font-family:'Open sans';
+  font-size:250%;
+}
+
+
+.MainCard{
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 300px;
+  width:550px;
+  padding: 50px;
+}
+
+
+.zoom-in-out-box {
+  padding: 10px;
+  margin: 24px;
+  width: 100px;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
