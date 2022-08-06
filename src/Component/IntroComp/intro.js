@@ -36,7 +36,7 @@ function intro() {
                         <br />
                         Building a successful product is a challenge.
                         <br></br>
-                        I want to design and develope experiences that make people's lives simple.
+                        I want to design and develope experiences that make peoples lives simple.
                     </div>
                 </div>
             </div>
